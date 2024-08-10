@@ -122,26 +122,27 @@ body {
 }
 
 .win-chance {
-    width: 200px;
-    height: 50px;
+    width: 19%;
+    height: 8%;
     position: relative;
     display: flex;
     justify-content: start;
     align-items: center;
     background-color: #333;
-    margin: 10px 5px;
+    margin: 1.7% 0.5%;
+    
 }
 .win-chance img {
-    width: 50px;
+    width: 25%;
 }
 .kvota {
     color: whitesmoke;
-    margin-left: 50px;
+    margin-left: 25%;
 }
 .win-chance img.bonus {
     position: absolute;
-    width: 25px;
-    left: 170px;
+    width: 15%;
+    left: 80%;
 }
 .balls-display {
     width: 30%;
@@ -154,14 +155,14 @@ body {
     padding: 30px;
 }
 .number {
-    width: 60px;
-    height: 30px;
+    width: 7%;
+    height: 9%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     background-color: #444;
-    margin: 10px 15px;
+    margin: 1.4% 2.1%;
     float: left;
     cursor: pointer;
     user-select: none;
