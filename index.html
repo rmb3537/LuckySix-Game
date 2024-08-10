@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-content">
+            <div class="game-holder">
+                <div class="animation-holder">
+                    <div class="top-five">
+                        <div class="ball ball-1">
+                            <img data-index="1" src="lucky6Images/basic.png" alt="">
+                        </div>
+                        <div class="ball ball-2">
+                            <img data-index="2" src="lucky6Images/basic.png" alt="">
+                        </div>
+                        <div class="ball ball-3">
+                            <img data-index="3" src="lucky6Images/basic.png" alt="">
+                        </div>
+                        <div class="ball ball-4">
+                            <img data-index="4" src="lucky6Images/basic.png" alt="">
+                        </div>
+                        <div class="ball ball-5">
+                            <img data-index="5" src="lucky6Images/basic.png" alt="">
+                        </div>
+                    </div>
+                    <div class="animation">
+                        <img id="main-ball" src="lucky6Images/red_1.png" alt="">
+                    </div>
+                    <div class="speed">
+                        <div data-speed="2000-1500" class="speed-time">x1</div>
+                        <div data-speed="1500-1000" class="speed-time">x2</div>
+                        <div data-speed="1000-500" class="speed-time">x3</div>
+                        <div data-speed="60-40" class="speed-time">x4</div>
+                    </div>
+                </div>
+                <div class="balls-holder"></div>
+            </div>
+            <div class="selection-holder">
+                <div class="balls-display"></div>
+                <div class="numbers"></div>
+            </div>
+        </div>
+        <div class="right-content">
+            <h1 class="title">Lucky Six</h1>
+            <button id="start">Start new round</button>
+            <div class="info">
+                <h1 class="win-title">You loose</h1>
+                <button class="reset">Start again</button>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

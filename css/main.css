@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+}
+.left-content {
+    height: 100vh;
+    width: 75%;
+    background-color: #444;
+    padding-top: 30px;
+}
+.right-content {
+    width: 25%;
+    background-color: #2a2d35;
+}
+.game-holder {
+    width: 100%;
+    height: 55%;
+    display: flex;
+}
+.selection-holder {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0e4123;
+    height: 45%;
+}
+.animation-holder {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+}
+.top-five {
+    height: 50px;
+    display: flex;
+    padding-bottom: 50px;
+    position: relative;
+}
+.ball {
+    width: 50px;
+    height: 50px;
+}
+.ball img {
+    width: 50px;
+    height: 50px;
+}
+.animation {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-image: url(../lucky6Images/loto.gif);
+    background-position: center;
+    background-size: cover;
+    margin-left: 5px;
+    filter: invert(1);
+}
+.speed {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.speed-time {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #535353;
+}
+.speed-time:hover {
+    cursor: pointer;
+    background-color: gold;
+}
+.ball-1 {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+}
+
+.ball-2 {
+    position: absolute;
+    bottom: 15px;
+    left: 55px;
+}
+
+.ball-3 {
+    position: absolute;
+    bottom: 30px;
+    left: 110px;
+}
+
+.ball-4 {
+    position: absolute;
+    bottom: 15px;
+    left: 165px;
+}
+
+.ball-5 {
+    position: absolute;
+    bottom: -20px;
+    left: 210px;
+}
+
+.balls-holder {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.win-chance {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #333;
+    margin: 10px 5px;
+}
+.win-chance img {
+    width: 50px;
+}
+.kvota {
+    color: whitesmoke;
+    margin-left: 50px;
+}
+.win-chance img.bonus {
+    position: absolute;
+    width: 25px;
+    left: 170px;
+}
+.balls-display {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbers {
+    width: 60%;
+    padding: 30px;
+}
+.number {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #444;
+    margin: 10px 15px;
+    float: left;
+    cursor: pointer;
+    user-select: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.purple {
+    background-color: purple;
+}
+.brown {
+    background-color: brown;
+}
+.black {
+    background-color: black;
+}
+.orange {
+    background-color: orange;
+}
+
+.title {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+#start {
+    display: block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+
+#main-ball {
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+    width: 0;
+    transform: rotate(-7deg);
+    transition: all .5s;
+    filter: invert();
+}
+.ready {
+    background-color: greenyellow;
+    color: #444;
+    box-shadow: 0 0 8px gold;
+}
+
+.ready {
+    background-color: greenyellow;
+    box-shadow: 0 0 8px gold;
+}
+
+.picked {
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+    filter: brightness(.2);
+}
+.win {
+    filter: brightness(1);
+}
+.speed-light {
+    background-color: gold;
+}
+.info {
+    display: none;
+}
+.win-title {
+    font-size: 28px;
+    color: aliceblue;
+    text-align: center;
+}
+.reset {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
